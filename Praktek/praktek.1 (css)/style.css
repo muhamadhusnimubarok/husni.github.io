@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('op.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kenia';
+}
+
+h1 {
+    color: black; 
+    padding: 20px; 
+    text-align: center;
+    font-size:100px;
+    
+}
+
+p {
+    color:white;
+    margin:20px;
+    background-color: red;
+    padding: 30px 100px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 30px;
+    
+}
+p:hover{
+    background-color: #323232;
+    border-color: #fff;
+    transition: width 2s linear 1s;
+
+}
+
+
+button { 
+    padding: 15px 60px;
+    background-color: red;
+    border-radius: 8px;
+
+}
+button:hover{
+    background-color: #323232;
+    border-color: #fff;
+    transition: width 2s linear 1s;
+
+}

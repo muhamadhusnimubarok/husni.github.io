@@ -1,0 +1,124 @@
+* {
+    color:aliceblue;
+    font-size: 50px;
+    font-size: 30px;
+    text-align:center;
+    float:left;
+    
+}
+
+
+.kotak {
+    width :500px;
+    height:500px;
+    background-color: black;
+    margin-right:70px;
+    line-height:500px;
+    
+   
+     
+}
+
+.kotak1 {
+    width:300px;
+    height:300px;
+    background-color:red;
+    margin-right: 60px;
+    line-height:300px;
+    float:left;
+    margin-top:200px;
+   
+
+ 
+}
+
+.kotak3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-right:60px;
+    line-height:8;
+    float:left;
+    margin-top:300px;
+   
+   }
+   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.segitiga {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid rgb(38, 36, 36); /* Sesuaikan warna dan ukuran segitiga di sini */
+    text-align: center;
+    position: relative;
+}
+
+.segitiga p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Warna teks */
+    font-size: 24px; /* Ukuran teks */
+}
+
+   
+   @keyframes changeBackground {
+    0% { background-color: red; }
+    25% { background-color: blue; }
+    50% { background-color: green; }
+    75% { background-color: yellow; }
+    100% { background-color: red; }
+  }
+  
+  body {
+    animation: changeBackground 5s infinite; 
+  
+  }
+
+  @keyframes blink {
+    0% { background-color: black;}
+    50% { background-color: aqua}
+    100% { background-color: rgb(221, 240, 7); }
+  }
+  
+  .kotak {
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0% { background-color: aqua;}
+    50% { background-color: black}
+    100% { background-color: rgb(219, 247, 9); }
+  }
+  
+  .kotak1 {
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0% { background-color: black;}
+    50% { background-color: yellow}
+    100% { background-color: aqua; }
+  }
+  
+  .kotak3 {
+    animation: blink 2s infinite;
+  }
+
+  @keyframes blink {
+    0% { background-color: black;}
+    5% { background-color: yellow}
+    100% { background-color: aqua; }
+  }
+  
+  .segitiga{
+    animation: blink 2s infinite;
+  }
